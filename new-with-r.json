@@ -10,7 +10,9 @@
         },
         "My_Lambda_Account": {
             "FaaSType": "Lambda",
-            "Region": "us-east-1"
+            "Region": "us-east-1",
+            "AccessKey": "My_Lambda_Account_ACCESS_KEY",
+            "SecretKey": "My_Lambda_Account_SECRET_KEY"
     },
     "DataStores": {
         "My_S3_Bucket": {
@@ -38,7 +40,7 @@
         },
         "r_func": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_GitHub_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"

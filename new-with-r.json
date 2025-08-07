@@ -7,7 +7,10 @@
             "ActionRepoName": "FaaSr-py-test-rpc",
             "Branch": "main",
             "Token": "My_GitHub_Account_TOKEN"
-        }
+        },
+        "My_Lambda_Account": {
+            "FaaSType": "Lambda",
+            "Region": "us-east-1"
     },
     "DataStores": {
         "My_S3_Bucket": {

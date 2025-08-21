@@ -48,7 +48,8 @@
                 "message": "testing testing testing"
             },
             "InvokeNext": [
-                "delete"
+                "delete",
+                "folders"
             ]
         },
         "delete": {

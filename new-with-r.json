@@ -80,8 +80,7 @@
     },
     "FunctionCRANPackage": {
         "r_log": [
-            "gapminder",
-            "duckdb"
+            "gapminder"
         ]
     },
     "PyPIPackageDownloads": {

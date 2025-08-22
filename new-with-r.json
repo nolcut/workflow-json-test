@@ -49,7 +49,7 @@
             },
             "InvokeNext": [
                 "delete",
-                "folders"
+                "folders(2)"
             ]
         },
         "delete": {

@@ -73,10 +73,10 @@
         }
     },
     "ActionContainers": {
-        "r_func": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-r:dev2",
-        "add_operation": "ghcr.io/nolcut/ga-rpc-python:0.1.7",
-        "delete": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python:dev2",
-        "folders": "ghcr.io/nolcut/ga-rpc-python:0.1.7"
+        "r_func": "ghcr.io/nolcut/ga-rpc-r:dev",
+        "add_operation": "ghcr.io/nolcut/ga-rpc-python:dev",
+        "delete": "ghcr.io/nolcut/ga-rpc-python:dev",
+        "folders": "ghcr.io/nolcut/ga-rpc-python:dev"
     },
     "FunctionCRANPackage": {
         "r_log": [

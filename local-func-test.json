@@ -98,7 +98,7 @@
     },
     "FunctionGitRepo": {
         "r_log": "nolcut/test-py",
-        "add_rpc": "nolcut/test-py"
+        "add_rpc": "nolcut/test-py",
         "print_and_delete": "nolcut/test-py",
         "test_list_folders": "nolcut/test-py"
     },

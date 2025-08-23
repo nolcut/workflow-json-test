@@ -41,7 +41,7 @@
             ]
         },
         "r_func": {
-            "FunctionName": "r_log",
+            "FunctionName": "My_Lambda_Account",
             "FaaSServer": "My_GitHub_Account",
             "Type": "R",
             "Arguments": {

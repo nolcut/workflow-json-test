@@ -41,8 +41,8 @@
             ]
         },
         "r_func": {
-            "FunctionName": "My_Lambda_Account",
-            "FaaSServer": "My_GitHub_Account",
+            "FunctionName": "r_log",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"

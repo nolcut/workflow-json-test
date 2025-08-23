@@ -93,8 +93,6 @@
             "oittaa/uuid6-python"
         ]
     },
-    "FunctionLocalFile": {
-    },
     "FunctionGitRepo": {
         "r_log": "nolcut/test-py",
         "add_rpc": "nolcut/test-py",

@@ -54,7 +54,7 @@
         },
         "delete": {
             "FunctionName": "print_and_delete",
-            "FaaSServer": "My_Lambda_Account",
+            "FaaSServer": "My_GitHub_Account",
             "Type": "Python",
             "Arguments": {
                 "folder": "testadd",

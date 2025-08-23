@@ -94,7 +94,6 @@
         ]
     },
     "FunctionLocalFile": {
-        "add_rpc": "./test_add.py"
     },
     "FunctionGitRepo": {
         "r_log": "nolcut/test-py",

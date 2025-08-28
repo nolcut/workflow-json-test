@@ -99,6 +99,7 @@
         "print_and_delete": "nolcut/test-py",
         "test_list_folders": "nolcut/test-py"
     },
+    "WorkflowName": "test_name",
     "FunctionInvoke": "add_operation",
     "InvocationID": "",
     "InvocationIDFromDate": "%Y%m%d%H%M",

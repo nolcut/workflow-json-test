@@ -2,7 +2,7 @@
     "ComputeServers": {
         "My_GitHub_Account": {
             "FaaSType": "GitHubActions",
-            "UserName": "YOUR_GITHUB_USERNAME",
+            "UserName": "nolcut",
             "ActionRepoName": "FaaSr-tutorial",
             "Branch": "main"
         }
@@ -19,6 +19,7 @@
         "start": {
             "FunctionName": "create_sample_data",
             "FaaSServer": "My_GitHub_Account",
+            "Type": "R",
             "Arguments": {
                 "folder": "tutorial",
                 "output1": "sample1.csv",
@@ -29,6 +30,7 @@
         "sum": {
             "FunctionName": "compute_sum",
             "FaaSServer": "My_GitHub_Account",
+            "Type": "R",
             "Arguments": {
                 "folder": "tutorial",
                 "input1": "sample1.csv",

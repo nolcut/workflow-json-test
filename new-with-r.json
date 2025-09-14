@@ -7,7 +7,7 @@
             "ActionRepoName": "FaaSr-py-test-rpc",
             "Branch": "main",
             "Token": "My_GitHub_Account_TOKEN"
-        },
+        }
     },
     "DataStores": {
         "My_Minio_Bucket": {

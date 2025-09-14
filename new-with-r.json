@@ -41,11 +41,10 @@
             ]
         },
         "r_func": {
-            "FunctionName": "r_log",
+            "FunctionName": "arrow_test",
             "FaaSServer": "My_GitHub_Account",
             "Type": "R",
             "Arguments": {
-                "message": "testing testing testing"
             },
             "InvokeNext": [
                 "delete",
@@ -95,12 +94,13 @@
     },
     "FunctionGitRepo": {
         "add_rpc": "nolcut/test-py",
+        "arrow_test": "nolcut/test-py",
         "r_log": "nolcut/test-py",
         "print_and_delete": "nolcut/test-py",
         "test_list_folders": "nolcut/test-py"
     },
     "WorkflowName": "test_name",
-    "FunctionInvoke": "add_operation",
+    "FunctionInvoke": "r_func",
     "InvocationID": "",
     "InvocationIDFromDate": "%Y%m%d%H%M",
     "FaaSrLog": "FaaSrLog",

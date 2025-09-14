@@ -29,7 +29,6 @@
                 "output": "add_result_500.txt"
             },
             "InvokeNext": [
-                "r_func(3)"
             ]
         },
         "r_func": {
@@ -39,6 +38,7 @@
             "Arguments": {
             },
             "InvokeNext": [
+                "add_operation",
                 "delete",
                 "folders"
             ]

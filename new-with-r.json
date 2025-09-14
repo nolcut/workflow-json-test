@@ -96,7 +96,7 @@
     "InvocationID": "",
     "InvocationIDFromDate": "%Y%m%d%H%M",
     "FaaSrLog": "FaaSrLog",
-    "LoggingDataStore": "My_S3_Bucket",
-    "DefaultDataStore": "My_S3_Bucket",
+    "LoggingDataStore": "My_Minio_Bucket",
+    "DefaultDataStore": "My_Minio_Bucket",
     "WorkflowName": "test-workflow"
 }

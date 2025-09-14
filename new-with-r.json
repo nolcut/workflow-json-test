@@ -8,13 +8,6 @@
             "Branch": "main",
             "Token": "My_GitHub_Account_TOKEN"
         },
-        "My_Lambda_Account": {
-            "FaaSType": "Lambda",
-            "Region": "us-east-1",
-            "UseSecretStore": false,
-            "AccessKey": "My_Lambda_Account_ACCESS_KEY",
-            "SecretKey": "My_Lambda_Account_SECRET_KEY"
-        }
     },
     "DataStores": {
         "My_S3_Bucket": {
@@ -53,7 +46,7 @@
         },
         "delete": {
             "FunctionName": "print_and_delete",
-            "FaaSServer": "My_Lambda_Account",
+            "FaaSServer": "My_GitHub_Account",
             "Type": "Python",
             "Arguments": {
                 "folder": "testadd",

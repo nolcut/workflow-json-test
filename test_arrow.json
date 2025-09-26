@@ -58,11 +58,13 @@
         "test-arrow": "JStover95/FaaSr-Testing-Functions/arrow_test_functions"
     },
     "LoggingDataStore": "My_Minio_Bucket",
+    "InvocationTimestamp": "123",
     "FaaSrLog": "FaaSrLog",
     "InvocationID": "",
     "WorkflowName": "Arrow-Workflow"
 
 }
+
 
 
 

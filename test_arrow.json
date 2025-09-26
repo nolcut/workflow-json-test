@@ -40,7 +40,7 @@
         }
     },
     "DataStores": {
-        "My_S3_Bucket": {
+        "My_Minio_Bucket": {
             "Endpoint": "https://s3.us-east-1.amazonaws.com",
             "Bucket": "faasr-integration-tests",
             "Region": "us-east-1"
@@ -51,15 +51,16 @@
         "test-arrow": "ghcr.io/faasr/github-actions-r:dev"
     },
     "FunctionInvoke": "test-arrow",
-    "DefaultDataStore": "My_S3_Bucket",
+    "DefaultDataStore": "My_Minio_Bucket",
     "FunctionGitRepo": {
         "create-input": "JStover95/FaaSr-Testing-Functions/arrow_test_functions",
         "test-arrow": "JStover95/FaaSr-Testing-Functions/arrow_test_functions"
     },
-    "LoggingDataStore": "My_S3_Bucket",
+    "LoggingDataStore": "My_Minio_Bucket",
     "FaaSrLog": "FaaSrLog",
     "InvocationID": "",
     "WorkflowName": "Arrow-Workflow"
 
 }
+
 

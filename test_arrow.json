@@ -27,7 +27,7 @@
             "InvokeNext": [],
             "FaaSServer": "My_GitHub_Account",
             "Type": "R",
-            "FunctionName": "test-arrow"
+            "FunctionName": "test_arrow"
         }
     },
     "ComputeServers": {
@@ -62,3 +62,4 @@
     "WorkflowName": "Arrow-Workflow"
 
 }
+

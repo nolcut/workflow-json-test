@@ -41,8 +41,10 @@
     },
     "DataStores": {
         "My_Minio_Bucket": {
+            "Endpoint": "https://play.min.io",
             "Bucket": "faasr-integration-tests",
-            "Region": "us-east-1"
+            "Region": "us-east-1",
+            "Writable": "TRUE"
         }
     },
     "ActionContainers": {
@@ -61,6 +63,7 @@
     "WorkflowName": "Arrow-Workflow"
 
 }
+
 
 
 

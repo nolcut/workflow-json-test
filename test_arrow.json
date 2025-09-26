@@ -41,7 +41,6 @@
     },
     "DataStores": {
         "My_Minio_Bucket": {
-            "Endpoint": "https://s3.us-east-1.amazonaws.com",
             "Bucket": "faasr-integration-tests",
             "Region": "us-east-1"
         }
@@ -62,5 +61,6 @@
     "WorkflowName": "Arrow-Workflow"
 
 }
+
 
 

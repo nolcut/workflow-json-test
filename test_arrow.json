@@ -54,8 +54,8 @@
     "FunctionInvoke": "test-arrow",
     "DefaultDataStore": "My_Minio_Bucket",
     "FunctionGitRepo": {
-        "create-input": "JStover95/FaaSr-Testing-Functions/arrow_test_functions",
-        "test-arrow": "JStover95/FaaSr-Testing-Functions/arrow_test_functions"
+        "create_input": "JStover95/FaaSr-Testing-Functions/arrow_test_functions",
+        "test_arrow": "JStover95/FaaSr-Testing-Functions/arrow_test_functions"
     },
     "LoggingDataStore": "My_Minio_Bucket",
     "InvocationTimestamp": "123",
@@ -64,6 +64,7 @@
     "WorkflowName": "Arrow-Workflow"
 
 }
+
 
 
 
